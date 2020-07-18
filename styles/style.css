@@ -346,14 +346,18 @@ description */
   justify-content: space-between;
 }
 
-.footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
+.footer__column {
   min-height: 250px;
-  justify-content: space-between;
-  flex-basis: 711px;
   margin: 0;
   padding: 0;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 711px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .footer__author {
@@ -364,10 +368,8 @@ description */
 }
 
 .footer__column_content_info {
-  flex-direction: column;
-  width: auto;
-  padding: 0;
   display: block;
+  flex-direction: column;
 }
 
 .footer__column-links {
@@ -410,11 +412,8 @@ description */
 }
 
 .footer__column_content_social {
-  flex-direction: column;
-  width: auto;
-  margin: 0;
-  padding: 0;
   display: block;
+  flex-direction: column;
 }
 
 .logo_place_footer {
