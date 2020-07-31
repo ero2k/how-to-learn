@@ -14,16 +14,6 @@
 }
 
 .feinman__link:hover {
-  text-align: center;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
   color: #0280ed;
   transition: .2s;
   opacity: .5;

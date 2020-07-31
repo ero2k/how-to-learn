@@ -9,12 +9,7 @@
 }
 
 .footer__column-link:hover {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  text-decoration: none;
   color: gray;
-  margin: 0;
   transition: .2s;
   opacity: .5;
 }

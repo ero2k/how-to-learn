@@ -1,0 +1,12 @@
+.resources__cell:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: grey;
+  transition: width .3s ease-in-out;
+}
+
+.resources__cell:hover:after {
+  width: 100%;
+}
